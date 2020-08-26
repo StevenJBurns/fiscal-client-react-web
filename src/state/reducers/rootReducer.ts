@@ -5,6 +5,8 @@ import storage from 'redux-persist/lib/storage';
 const rootReducer = combineReducers({
   user: () => null,
   accounts: () => null,
+  selectedAccount: () => null,
+  ui: () => null,
 });
 
 const persistConfig = {

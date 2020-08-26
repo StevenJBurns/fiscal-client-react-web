@@ -8,6 +8,7 @@ const initialRootState = {
     user: undefined,
     accounts: undefined,
     selectedAccount: undefined,
+    ui: undefined,
 };
 
 export const store = createStore(
