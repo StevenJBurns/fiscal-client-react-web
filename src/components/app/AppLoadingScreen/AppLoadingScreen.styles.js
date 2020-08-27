@@ -7,14 +7,10 @@ export const useStyles = makeStyles(theme => ({
     justifyContent: 'center',
     alignItems: 'center',
     minHeight: '100vh',
-    margin: '0 auto',
-    backgroundColor: 'springgreen',
-    '& > header': {
-      minHeight: '4rem',
-      backgroundColor: 'aquamarine',
+    margin: 0,
     },
     '& > main': {
       flex: '1 0 auto',
     },
   },
-}));
+));
