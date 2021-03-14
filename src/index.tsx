@@ -11,7 +11,7 @@ import './index.css';
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <PersistGate persistor={persistor} loading={AppLoadingScreen}>
+      <PersistGate persistor={persistor} loading={<AppLoadingScreen />}>
         <BrowserRouter basename={process.env.PUBLIC_URL}>
           <App /> 
         </BrowserRouter>

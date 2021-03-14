@@ -1,4 +1,4 @@
-import { Page404 } from 'components/pages/404';
+import { Page404 } from 'components/pages/Page404';
 
 export const Pages = {
   Page404,

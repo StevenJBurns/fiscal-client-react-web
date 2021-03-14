@@ -6,13 +6,16 @@ export const useStyles = makeStyles(theme => ({
     flexDirection: 'column',
     minHeight: '100vh',
     margin: '0 auto',
-    backgroundColor: 'springgreen',
-    '& > header': {
-      minHeight: '4rem',
-      backgroundColor: 'aquamarine',
-    },
     '& > main': {
       flex: '1 0 auto',
+    },
+    '& a': {
+      margin: '0.5rem',
+    }
+  },
+  tabs: {
+    indicator: {
+      backgroundColor: 'darkgreen',
     },
   },
 }));
